@@ -63,14 +63,16 @@ This project showcases my expertise in full-stack development, secure integratio
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CodeWith-vivek&show_icons=true&theme=radical" alt="Vivek's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CodeWith-vivek&theme=radical" alt="Vivek's Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=CodeWith-vivek&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=CodeWith-vivek&theme=radical" alt="Trophies" /></a>
-</p>
+<div align="center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #0D1117; padding: 0 20px 20px 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+  <h1>ɢɪᴛʜᴜʙ ꜱᴛᴀᴛꜱ</h1>
+  <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+    <a href="https://github.com/CodeWith-vivek"><img src="https://github-readme-stats.vercel.app/api?username=CodeWith-vivek&rank_icon=github&hide_border=true&theme=transparent&text_color=ffffff" alt="Vivek's GitHub Stats" width="355" height="175" style="margin-right: 10px;" /></a>
+    <a href="https://github.com/CodeWith-vivek"><img src="https://github-readme-streak-stats.herokuapp.com/?user=CodeWith-vivek&stroke=ffffff&background=0000&ring=ffffff&fire=ffffff&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="Vivek's Streak" width="465" height="175" /></a>
+  </div>
+  <a href="https://github.com/CodeWith-vivek"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=CodeWith-vivek&show_icons=true&locale=en&layout=compact&theme=transparent&text_color=ffffff&hide_border=true" alt="Top Languages" width="355" height="175" style="margin-bottom: 20px;" /></a>
+  <a href="https://github.com/CodeWith-vivek"><img src="https://github-readme-activity-graph.vercel.app/graph?username=CodeWith-vivek&bg_color=0000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" width="850" height="300" alt="Contribution Constellation"/></a>
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=CodeWith-vivek&theme=transparent&no-bg=true&no-frame=true&title_color=ffffff&text_color=ffffff" alt="Trophies" style="margin-top: 20px;" /></a>
+</div>
 
 ---
 
