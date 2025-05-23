@@ -1,6 +1,6 @@
 ﻿<div align="center">
   <h1>👋 Hey, I'm Vivek Anand! 🚀</h1>
-  <img src="./gif-hello.gif" alt="Vivek Anand" width="300" style="border-radius: 50%;" />
+  <img src="./gif-hello.gif" alt="Vivek Anand" width="1500" style="border-radius: 50%;" />
 
   <p style="font-size: 1.2em; color: #E0E0E0;">
     Passionate <strong>MERN Stack Developer</strong> crafting clean, user-friendly, and visually stunning web solutions. I thrive on turning complex problems into elegant code! 💻
