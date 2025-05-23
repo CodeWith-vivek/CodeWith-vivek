@@ -105,8 +105,8 @@ Other Tools: Git, GitHub, Cloudinary, Postman
 ## 📬 Connect with Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vivek-anand-453bba17a" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" /></a>
-  <a href="https://www.instagram.com/__v_i_v_e_k_._a_n_a_n_d" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" /></a>
+  <a href="https://www.linkedin.com/in/vivek-anand-453bba17a" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
+  <a href="https://www.instagram.com/__v_i_v_e_k_._a_n_a_n_d" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram"  height="30" width="40"/></a>
 </p>
 
 <div align="center">
