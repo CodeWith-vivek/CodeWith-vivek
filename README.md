@@ -49,6 +49,15 @@ This project showcases my expertise in full-stack development, secure integratio
 
 ---
 
+## 🛠️ My Tech Stack  
+
+```yaml
+Programming Languages: JavaScript (ES6+), C, Java  
+Frontend: React.js, Vite, HTML, CSS, Tailwind, Bootstrap  
+Backend: Node.js, Express.js, MongoDB  
+Other Tools: Git, GitHub, Cloudinary, Postman
+```
+
 ## 🛠️ Languages & Tools
 
 <p align="center">
@@ -91,14 +100,7 @@ This project showcases my expertise in full-stack development, secure integratio
 
 ---
 
-## 🛠️ My Tech Stack  
 
-```yaml
-Programming Languages: JavaScript (ES6+), C, Java  
-Frontend: React.js, Vite, HTML, CSS, Tailwind, Bootstrap  
-Backend: Node.js, Express.js, MongoDB  
-Other Tools: Git, GitHub, Cloudinary, Postman
-```
 
 - 📫 How to reach me **vivekanandthanuja97@gmail.com**
 
