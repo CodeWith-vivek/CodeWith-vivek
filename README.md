@@ -1,5 +1,5 @@
 ﻿<h1>Hi 👋, I'm Vivek Anand</h1>
-<img src="./gif-hello.gif" alt="Vivek Anand" width="1000"  style="border-radius: 50%; margin: 10px 0;" />
+<img src="./gif-hello.gif" alt="Vivek Anand" width="1500"  style="border-radius: 50%; margin: 10px 0;" />
 <p>I'm a passionate MERN Stack Developer with a strong foundation in web technologies. I thrive on turning complex problems into clean, user-friendly, and visually appealing solutions.</p>
 <h2>🚀 Languages and Tools I Use</h2>
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42" /></a>
