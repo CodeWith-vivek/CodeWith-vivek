@@ -38,7 +38,7 @@ This project showcases my expertise in full-stack development, secure integratio
 ## 🛠️ Mini Projects
 
 - ⚛️ **MERN Stack Projects**:
-- **[Crownify](https://github.com/CodeWith-vivek/Crownify)**: An industry-level e-commerce platform for branded caps, built with EJS, Node.js, Express.js, MongoDB, Razorpay, and OAuth.
+- **[Crownify](https://github.com/CodeWith-vivek/crownify2024)**: An industry-level e-commerce platform for branded caps, built with EJS, Node.js, Express.js, MongoDB, Razorpay, and OAuth.
   - **[React-Redux User Management System](https://github.com/CodeWith-vivek/react-userMangement)**: A full-stack MERN application with a React-Redux frontend for efficient state management, paired with a Node.js, Express.js, and MongoDB backend for user data handling.
   - **[Student Management System](https://github.com/CodeWith-vivek/typescript-studentManagement)**: A TypeScript-powered  project for managing student records, featuring a responsive EJS frontend and a robust backend.
 
