@@ -11,7 +11,7 @@
 
 ## 💼 Projects
 
-### Project 1: [Crownify 🧢]
+### Project 1: [Crownify 🧢](https://github.com/CodeWith-vivek/Crownify)
 
 **Crownify** is an industry-level e-commerce platform for branded caps and hats, featuring a robust admin dashboard for seamless management. It delivers a smooth shopping experience with secure payments and authentication.
 
@@ -32,6 +32,20 @@
 **My Role**: As the lead developer, I designed and implemented the user interface, integrated server-side functionality with Express.js and MongoDB, incorporated Razorpay and OAuth for payments and authentication, and built the admin dashboard for efficient management.
 
 This project showcases my expertise in full-stack development, secure integrations, and responsive design.
+
+---
+
+## 🛠️ Mini Projects
+
+- ⚛️ **MERN Stack Projects**:
+- **[Crownify](https://github.com/CodeWith-vivek/Crownify)**: An industry-level e-commerce platform for branded caps, built with EJS, Node.js, Express.js, MongoDB, Razorpay, and OAuth.
+  - **[React-Redux User Management System](https://github.com/CodeWith-vivek/react-userMangement)**: A full-stack MERN application with a React-Redux frontend for efficient state management, paired with a Node.js, Express.js, and MongoDB backend for user data handling.
+  - **[Student Management System](https://github.com/CodeWith-vivek/typescript-studentManagement)**: A TypeScript-powered  project for managing student records, featuring a responsive EJS frontend and a robust backend.
+
+- 🌐 **React Frontend Projects**:
+  - **[Netflix Clone](https://github.com/CodeWith-vivek/React-netflix-clone)**: A dynamic Netflix-inspired interface built with React, leveraging an external API for movie data.
+  - **[OLX Clone](https://github.com/CodeWith-vivek/react-olx-clone)**: A React-based marketplace clone with Firebase integration for real-time data handling.
+  - **[To-Do List App](https://github.com/CodeWith-vivek/React-todo)**: A sleek task management app developed with React, featuring intuitive task creation and tracking.
 
 ---
 
@@ -61,7 +75,6 @@ This project showcases my expertise in full-stack development, secure integratio
 
 ---
 
-## 📊 GitHub Stats
 
 <div align="center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #0D1117; padding: 0 20px 20px 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
   <h1>ɢɪᴛʜᴜʙ ꜱᴛᴀᴛꜱ</h1>
@@ -76,11 +89,24 @@ This project showcases my expertise in full-stack development, secure integratio
 
 ---
 
+---
+
+## 🛠️ My Tech Stack  
+
+```yaml
+Programming Languages: JavaScript (ES6+), C, Java  
+Frontend: React.js, Vite, HTML, CSS, Tailwind, Bootstrap  
+Backend: Node.js, Express.js, MongoDB  
+Other Tools: Git, GitHub, Cloudinary, Postman
+```
+
+- 📫 How to reach me **vivekanandthanuja97@gmail.com**
+
 ## 📬 Connect with Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vivek-anand-453bba17a" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://www.instagram.com/__v_i_v_e_k_._a_n_a_n_d" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.linkedin.com/in/vivek-anand-453bba17a" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" /></a>
+  <a href="https://www.instagram.com/__v_i_v_e_k_._a_n_a_n_d" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" /></a>
 </p>
 
 <div align="center">
