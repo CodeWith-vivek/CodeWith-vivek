@@ -3,9 +3,40 @@
   <img src="./gif-hello.gif" alt="Vivek Anand" width="1500" style="border-radius: 50%;" />
 
   <p style="font-size: 1.2em; color: #E0E0E0;">
-    Passionate <strong>MERN Stack Developer</strong> crafting clean, user-friendly, and visually stunning web solutions. I thrive on turning complex problems into elegant code! 💻
+    Full Stack Developer building production AI-powered systems — RAG pipelines, LLM integrations, and scalable web apps. I care about what happens after the demo: real retrieval pipelines, real guardrails, real deployments. 💻
   </p>
 </div>
+
+---
+
+## 👨‍💻 About Me
+
+Full Stack Developer specializing in AI-powered systems — RAG pipelines, LLM integrations, and production web applications. Coming from a non-IT background, I transitioned into tech and now build systems using TypeScript, React, Next.js, Node.js, PostgreSQL, and MongoDB.
+
+---
+
+## 💼 Recent Work
+
+### AI Customer-Service Platform — Prime NRI Property Management
+
+Built the backend and AI/RAG layer of an AI customer-service platform (Next.js 16, TypeScript, Vercel AI SDK, Anthropic Claude, PostgreSQL/pgvector) in a 3-developer team.
+
+- Designed the RAG pipeline for PDF/DOCX parsing, chunking, embeddings, hybrid vector/keyword search, and reranking
+- Fixed a tool-calling loop re-triggering search up to 5x per query, cutting redundant retrieval calls
+- Replaced unstable LLM streaming with a generate-then-verify-then-stream architecture
+- Implemented a 3-layer LLM guardrail system: prompt-injection defense, jailbreak detection, and hallucination checks
+
+### LEO — Local-First AI Personal Assistant
+
+Personal project exploring local-first AI assistant architecture, built with Electron, TypeScript, Node.js, and Ollama.
+
+- LLM chat running against locally-hosted models
+- Persistent memory across sessions
+- Provider health monitoring and voice input
+
+### Production Lead-Generation Site — Ernest Wells Ltd (UK)
+
+Independently built and deployed a production site for a UK accountancy firm using Astro 6 SSR, TypeScript, and Tailwind CSS, including CMS integration and full deployment/client handover.
 
 ---
 
@@ -53,8 +84,10 @@ This project showcases my expertise in full-stack development, secure integratio
 
 ```yaml
 Programming Languages: JavaScript (ES6+), C, Java  
-Frontend: React.js, Vite, HTML, CSS, Tailwind, Bootstrap  
+Frontend: React.js, Next.js, Vite, HTML, CSS, Tailwind, Bootstrap  
 Backend: Node.js, Express.js, MongoDB  
+AI/ML: Vercel AI SDK, Anthropic Claude, RAG (Retrieval-Augmented Generation), pgvector, Ollama  
+Desktop: Electron  
 Other Tools: Git, GitHub, Cloudinary, Postman
 ```
 
@@ -65,6 +98,7 @@ Other Tools: Git, GitHub, Cloudinary, Postman
   <a href="https://www.cprogramming.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="50" height="50"/></a>
   <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50"/></a>
   <a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="50" height="50"/></a>
+  <a href="https://nextjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="Next.js" width="50" height="50" style="filter: invert(1);"/></a>
   <a href="https://getbootstrap.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="50" height="50"/></a>
   <a href="https://www.w3.org/Style/CSS/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50"/></a>
   <a href="https://www.w3.org/html/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50" height="50"/></a>
@@ -80,6 +114,8 @@ Other Tools: Git, GitHub, Cloudinary, Postman
   <a href="https://www.figma.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="50" height="50"/></a>
   <a href="https://www.getpostman.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="50" height="50"/></a>
   <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="50" height="50"/></a>
+  <a href="https://ollama.com/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/ollama.svg" alt="Ollama" width="50" height="50" style="filter: invert(1);"/></a>
+  <a href="https://www.electronjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="Electron" width="50" height="50"/></a>
 </p>
 
 ---
