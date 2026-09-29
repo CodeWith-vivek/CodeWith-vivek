@@ -11,32 +11,36 @@
 
 ## 👨‍💻 About Me
 
-Full Stack Developer specializing in AI-powered systems — RAG pipelines, LLM integrations, and production web applications. Coming from a non-IT background, I transitioned into tech and now build systems using TypeScript, React, Next.js, Node.js, PostgreSQL, and MongoDB.
+Full Stack Developer building and deploying production web applications and AI-powered systems with TypeScript, React, Next.js, Node.js, PostgreSQL, and MongoDB. Hands-on experience with REST APIs, authentication, RAG pipelines, hybrid and vector search, LLM integration, and tool calling, from backend and frontend through deployment and client handover.
 
 ---
 
 ## 💼 Recent Work
 
-### AI Customer-Service Platform — Prime NRI Property Management
+### Trainee Software Developer — Prime NRI Property Management (May 2026 – Sep 2026)
 
-Built the backend and AI/RAG layer of an AI customer-service platform (Next.js 16, TypeScript, Vercel AI SDK, Anthropic Claude, PostgreSQL/pgvector) in a 3-developer team.
+Owned backend architecture across client and admin domains for a production AI platform built by a 3-developer team, using Next.js, TypeScript, and PostgreSQL/pgvector on Neon.
 
-- Designed the RAG pipeline for PDF/DOCX parsing, chunking, embeddings, hybrid vector/keyword search, and reranking
-- Fixed a tool-calling loop re-triggering search up to 5x per query, cutting redundant retrieval calls
-- Replaced unstable LLM streaming with a generate-then-verify-then-stream architecture
-- Implemented a 3-layer LLM guardrail system: prompt-injection defense, jailbreak detection, and hallucination checks
+- Architected the RAG retrieval pipeline — hybrid vector/keyword search and embedding-based reranking — backed by a 3-layer LLM guardrail system spanning prompt-injection defense, jailbreak detection, and hallucination checks
+- Built admin control-plane APIs for lead management, knowledge-base curation, and authentication rate-limiting
+- Identified and patched an unauthenticated PII-enumeration vulnerability; hardened rate-limiting and session-token handling against auth-bypass vectors
 
-### LEO — Local-First AI Personal Assistant
+### Freelance Full Stack Developer — Ernest Wells Ltd, UK (Remote) (Jun 2026)
 
-Personal project exploring local-first AI assistant architecture, built with Electron, TypeScript, Node.js, and Ollama.
+Independently built and deployed a UK accountancy firm's lead-generation site on Astro 6 (hybrid SSR/static, Vercel), TypeScript, and Tailwind CSS 4, with 20+ reusable components and 9 statically generated service pages from dynamic routes.
 
-- LLM chat running against locally-hosted models
-- Persistent memory across sessions
-- Provider health monitoring and voice input
+- Modeled all content as 18 Zod-validated Astro Content Collections integrated with CloudCannon CMS, letting non-technical staff manage copy, pricing, FAQs, and testimonials independently
+- Built a serverless contact API — honeypot filtering, server-side validation, HTML-escaped output — persisting leads to Google Sheets with Resend notifications, backed by an Alpine.js interactive form
+- Shipped core conversion tools — a 4-step service-recommendation quiz, tax estimator, and pre-filled WhatsApp handoffs — alongside technical SEO via JSON-LD and Open Graph
+- Managed Vercel deployment, custom domain configuration, launch, and full client handover
 
-### Production Lead-Generation Site — Ernest Wells Ltd (UK)
+### LEO — Local-First AI Personal Assistant (Jul 2026 – Present)
 
-Independently built and deployed a production site for a UK accountancy firm using Astro 6 SSR, TypeScript, and Tailwind CSS, including CMS integration and full deployment/client handover.
+Directed the AI-assisted build of LEO (via Claude Code) as a personal testbed for evaluating AI models — a modular, hexagonal-style architecture across a 4-package monorepo, built with Electron, TypeScript, Node.js, and Ollama.
+
+- Circuit-breaker-protected LLM/voice fallback chain
+- Bounded tool-calling agent loop with local markdown RAG
+- Real-time voice pipeline (Whisper STT, dual TTS, barge-in handling), with MCP integration on the roadmap
 
 ---
 
@@ -44,25 +48,24 @@ Independently built and deployed a production site for a UK accountancy firm usi
 
 ### Project 1: [Crownify 🧢](https://github.com/CodeWith-vivek/Crownify)
 
-**Crownify** is an industry-level e-commerce platform for branded caps and hats, featuring a robust admin dashboard for seamless management. It delivers a smooth shopping experience with secure payments and authentication.
+**Crownify** is an industry-level e-commerce platform for branded caps and hats. Migrated from a legacy EJS/MVC monolith to a React SPA with SSR on public storefront routes, delivered in phases with zero downtime; re-platformed hosting from AWS EC2/Nginx to Render alongside the rewrite.
 
 **Technologies Used**:
-- **EJS, HTML, CSS, Bootstrap**: For structuring and styling the user interface.
-- **JavaScript, Node.js, Express.js**: To enable dynamic interactions and server-side logic.
+- **React, Node.js, Express.js**: SPA frontend with SSR storefront routes and server-side logic.
 - **MongoDB**: For efficient data storage and management.
-- **Razorpay**: For secure payment processing.
-- **OAuth**: For seamless and secure user authentication.
+- **Razorpay**: Checkout with server-side signature verification.
+- **Jest, Vitest, Playwright**: 3-tier test strategy automated via GitHub Actions CI.
 
 **Key Features**:
-- 🛒 User-friendly shopping interface for browsing and purchasing branded caps.
-- 💳 Secure payment integration with Razorpay.
-- 🔐 OAuth-based login for enhanced security and user experience.
-- 📊 Admin dashboard for managing products, orders, and users.
-- 📱 Responsive design for accessibility across devices.
+- 🛒 React SPA storefront with SSR on public routes, migrated with zero downtime.
+- 🏗️ Refactored 1,000+ line controllers into a layered Routes → Controllers → Services → Models architecture across 15+ domain modules, with centralized error handling.
+- 💳 Razorpay checkout backed by a transaction-safe wallet ledger and coupon rollback engine.
+- 🔐 Production security controls — double-submit CSRF protection, Helmet headers, rate-limited auth endpoints, and MongoDB-backed session management.
+- ✅ 3-tier test strategy — Jest integration, Vitest component, and Playwright E2E tests — automated via GitHub Actions CI.
 
-**My Role**: As the lead developer, I designed and implemented the user interface, integrated server-side functionality with Express.js and MongoDB, incorporated Razorpay and OAuth for payments and authentication, and built the admin dashboard for efficient management.
+**My Role**: As the lead developer, I led the monolith-to-SPA migration, the controller refactor, the payment/wallet system, security hardening, and the CI test pipeline.
 
-This project showcases my expertise in full-stack development, secure integrations, and responsive design.
+This project showcases my expertise in large-scale migrations, secure payment systems, and production-grade testing.
 
 ---
 
@@ -83,12 +86,16 @@ This project showcases my expertise in full-stack development, secure integratio
 ## 🛠️ My Tech Stack  
 
 ```yaml
-Programming Languages: JavaScript (ES6+), C, Java  
-Frontend: React.js, Next.js, Vite, HTML, CSS, Tailwind, Bootstrap  
-Backend: Node.js, Express.js, MongoDB  
-AI/ML: Vercel AI SDK, Anthropic Claude, RAG (Retrieval-Augmented Generation), pgvector, Ollama  
+Languages: TypeScript, JavaScript (ES6+), SQL, HTML5, CSS3, C, Java  
+Frontend: React.js, Next.js, Redux, Astro, Tailwind CSS, Alpine.js, Vite, Bootstrap  
+Backend: Node.js, Express.js, RESTful APIs, JWT Auth, RBAC, Drizzle ORM, Zod  
+Databases: PostgreSQL, pgvector, MongoDB, MySQL, Firebase  
+AI/GenAI: RAG (Retrieval-Augmented Generation), Hybrid Search, Vector Search, Embeddings, LLM Integration,
+          Prompt Engineering, AI Agents, Tool Calling, LLM Guardrails, Vercel AI SDK, Anthropic Claude,
+          OpenAI Embeddings, Ollama, Claude Code  
 Desktop: Electron  
-Other Tools: Git, GitHub, Cloudinary, Postman
+Tools/Cloud: Git, GitHub, Docker, Postman, AWS (EC2), Nginx, Vercel, Netlify, Render, Cloudinary  
+Concepts: Data Structures & Algorithms, OOP, SOLID Principles, MVC
 ```
 
 ## 🛠️ Languages & Tools
@@ -103,12 +110,16 @@ Other Tools: Git, GitHub, Cloudinary, Postman
   <a href="https://www.w3.org/Style/CSS/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50"/></a>
   <a href="https://www.w3.org/html/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50" height="50"/></a>
   <a href="https://redux.js.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="Redux" width="50" height="50"/></a>
+  <a href="https://astro.build/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/astro/astro-original.svg" alt="Astro" width="50" height="50"/></a>
   <a href="https://tailwindcss.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="50" height="50"/></a>
   <a href="https://nodejs.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="50" height="50"/></a>
   <a href="https://expressjs.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="50" height="50"/></a>
   <a href="https://www.nginx.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" width="50" height="50"/></a>
   <a href="https://www.mongodb.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="50" height="50"/></a>
   <a href="https://www.postgresql.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="50" height="50"/></a>
+  <a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="50" height="50"/></a>
+  <a href="https://www.docker.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="50" height="50"/></a>
+  <a href="https://vercel.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" alt="Vercel" width="50" height="50" style="filter: invert(1);"/></a>
   <a href="https://aws.amazon.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="50" height="50"/></a>
   <a href="https://firebase.google.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="50" height="50"/></a>
   <a href="https://www.figma.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="50" height="50"/></a>
